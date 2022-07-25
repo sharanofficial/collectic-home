@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/50e28b03e6.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Collectic Home</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="links-container">
+          <ul class="nav-links">
+            <li><a href="#" class="nav-link">home</a></li>
+            <li><a href="#" class="nav-link">our products</a></li>
+            <li><a href="#" class="nav-link">about us</a></li>
+            <li><a href="#" class="nav-link">contact</a></li>
+          </ul>
+        </div>
+        <button class="nav-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+        <img src="./images/logo-1.svg" alt="logo" />
+        <div class="cart-icon">
+          <button class="cart-btn">
+            <i class="fas fa-cart-plus"></i>
+          </button>
+          <div class="cart-items">0</div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- header -->
+    <header class="hero">
+      <div class="hero-container">
+        <h1>fruniture collection</h1>
+        <button class="hero-btn">shop now</button>
+      </div>
+    </header>
+
+    <!-- products -->
+    <section class="products">
+      <div class="section-title">
+        <h3>our products</h3>
+      </div>
+      <div class="products-container"></div>
+    </section>
+
+    <!-- cart -->
+    <div class="cart-overlay">
+      <div class="cart">
+        <div class="cart-header">
+          <button class="close-btn"><i class="far fa-window-close"></i></button>
+          <img src="./images/logo-1.svg" alt="logo" />
+        </div>
+        <h2>your cart</h2>
+        <div class="cart-content">
+          <!-- <div class="cart-item">
+
+          </div> -->
+        </div>
+        <div class="cart-footer">
+          <h3>your total : $<span class="total"> 0</span></h3>
+          <button class="clear-btn hero-btn">clear cart</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-content">
+          <article class="content">
+            <h5>location</h5>
+            <a href="#">store locator</a>
+          </article>
+
+          <article class="content">
+            <h5>company</h5>
+            <a href="#">about us</a>
+            <a href="#">policy service</a>
+            <a href="#">help</a>
+          </article>
+
+          <article class="content">
+            <h5>our products</h5>
+            <a href="#">beds</a>
+            <a href="#">table</a>
+            <a href="#">couch</a>
+            <a href="#">fridge</a>
+            <a href="#">dresser</a>
+          </article>
+        </div>
+        <div class="social-icons">
+          <h4>let's be friends</h4>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- contentful -->
+    <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
